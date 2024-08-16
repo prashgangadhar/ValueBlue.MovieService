@@ -1,0 +1,5 @@
+# Ignore bin, obj & vs temp folders
+bin/
+obj/
+.vs/
+*.vscode/
