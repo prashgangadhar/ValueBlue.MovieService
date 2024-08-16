@@ -2,7 +2,7 @@ READ ME:
 
 General:
 a. The solution is built on .Net8 following clean architecture and solid principles
-b. Open solution is VS2022, build solution and run app to launch swagger page. (Use http endpoint if https does not load)
+b. Open solution in VS2022, build solution and run app to launch swagger page. (Use http endpoint if https does not load)
 
 1) Search:
 	a. Does not store the requests in db if the movie is not found in omdb
@@ -24,8 +24,9 @@ b. Open solution is VS2022, build solution and run app to launch swagger page. (
 	"BaseUrl": "https://www.omdbapi.com/"
 	
 5) MongoDb: 
-	a. A local mongodb was used for development. Please make sure to replace config values accordingly before running the app.
-	b. Configuration is stored in AppSettings.json as
+	a. A local mongodb was used for development. 
+	b. Please make sure to replace config values accordingly before running the app.
+	c. Configuration is stored in AppSettings.json as
 		"MovieSearchHistoryDatabase": {
 			"ConnectionString": "mongodb://localhost:27017",
 			"DatabaseName": "ValueBlueMovies",
